@@ -4,17 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact Us | Sapphire Airport Transfers</title>
-    <meta name="description" content="Get in touch with Sapphire Airport Transfers for executive chauffeur and airport transfer inquiries.">
+    <meta name="description" content="Contact Sapphire Airport Transfers for luxury chauffeur bookings and airport transfer inquiries across London and the UK.">
     <link rel="stylesheet" href="styles.css">
+    <!-- Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700&family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
 
+    <!-- Header Navigation -->
     <header class="navbar">
         <div class="container nav-container">
             <a href="index.html" class="brand-logo">
-                <img src="Sapphire_logo.png" alt="Sapphire Airport Transfers Logo" class="header-logo">
+                <img src="./Sapphire_logo.png" alt="Sapphire Airport Transfers Logo" class="header-logo">
+                <span class="brand-text"><span>SAPPHIRE</span> AIRPORT TRANSFERS</span>
             </a>
             <nav class="nav-links">
                 <a href="index.html">Home</a>
@@ -23,72 +27,81 @@
                 <a href="contact.html" class="active">Contact Us</a>
             </nav>
             <div class="nav-contact">
-                <a href="tel:+441628955940" class="btn-phone"><i class="fas fa-phone"></i> +44 162 895 5940</a>
+                <a href="tel:+447931187056" class="btn-phone"><i class="fas fa-phone"></i> +44 793 118 7056</a>
             </div>
         </div>
     </header>
 
+    <!-- Page Header -->
     <section class="page-header">
         <div class="container">
             <h1>Contact Us</h1>
-            <p>Get in touch with our team for bookings, quotes, or general inquiries.</p>
+            <p>Get in touch for bespoke chauffeur inquiries, bookings, and corporate accounts.</p>
         </div>
     </section>
 
+    <!-- Main Contact Section -->
     <section class="contact-section">
         <div class="container contact-wrapper">
-            
+
+            <!-- Information Side -->
             <div class="contact-info-card">
                 <h3>Get In Touch</h3>
-                <p>We operate 24/7 to provide seamless executive transfers across London and the UK.</p>
-                
+                <p>Our dedicated dispatch and support team is available to assist with your journey requirements.</p>
+
                 <div class="contact-detail-item">
                     <i class="fas fa-phone-alt"></i>
                     <div>
-                        <h4>Phone</h4>
-                        <a href="tel:+441628955940">+44 162 895 5940</a>
+                        <strong>Phone / WhatsApp</strong>
+                        <p><a href="tel:+447931187056">+44 793 118 7056</a></p>
                     </div>
                 </div>
 
                 <div class="contact-detail-item">
                     <i class="fas fa-envelope"></i>
                     <div>
-                        <h4>Email</h4>
-                        <a href="mailto:info@sapphireairporttransfers.co.uk">info@sapphireairporttransfers.co.uk</a>
+                        <strong>Email Address</strong>
+                        <p><a href="mailto:info@chariotchauffeurs.co.uk">info@chariotchauffeurs.co.uk</a></p>
                     </div>
                 </div>
 
                 <div class="contact-detail-item">
                     <i class="fas fa-map-marker-alt"></i>
                     <div>
-                        <h4>Address</h4>
-                        <p>London, United Kingdom</p>
+                        <strong>Office Location</strong>
+                        <p>13 Sylvester Road, Maidenhead SL6 7SX, United Kingdom</p>
                     </div>
                 </div>
             </div>
 
+            <!-- Working Email Form -->
             <div class="contact-form-card">
-                <h3>Send Us a Message</h3>
-                <form action="#" method="POST" class="contact-form">
+                <h3>Send Us A Message</h3>
+                <form action="https://api.web3forms.com/submit" method="POST" class="contact-form">
                     
+                    <!-- Web3Forms Access Key -->
+                    <input type="hidden" name="access_key" value="7c7ba288-d36f-4b84-91ed-4f2de10fd6e0">
+                    <input type="hidden" name="subject" value="New Chauffeur Inquiry - Sapphire Airport Transfers">
+                    <input type="hidden" name="from_name" value="Sapphire Transfers Website">
+
                     <div class="form-group">
-                        <label for="name">Name *</label>
-                        <input type="text" id="name" name="name" placeholder="Your Full Name" required>
+                        <label for="name">Full Name *</label>
+                        <input type="text" id="name" name="name" placeholder="John Doe" required>
                     </div>
 
                     <div class="form-group">
-                        <label for="phone">Contact Number *</label>
-                        <input type="tel" id="phone" name="phone" placeholder="Your Phone Number" required>
+                        <label for="phone">Phone Number *</label>
+                        <input type="tel" id="phone" name="phone" placeholder="+44 793 118 7056" required>
                     </div>
 
                     <div class="form-group">
-                        <label for="email">Email *</label>
-                        <input type="email" id="email" name="email" placeholder="Your Email Address" required>
+                        <label for="email">Email Address *</label>
+                        <input type="email" id="email" name="email" placeholder="example@domain.com" required>
                     </div>
 
                     <div class="form-group">
-                        <label for="query">Query Details *</label>
-                        <textarea id="query" name="query" rows="5" placeholder="Please describe your booking details or inquiry..." required></textarea>
+                        <label for="query">Journey / Query Details *</label>
+                        <textarea id="query" name="message" rows="5" placeholder="Include pickup location, destination, date, time, and passenger count..." required></textarea>
                     </div>
 
                     <button type="submit" class="btn btn-primary btn-submit">Submit Inquiry</button>
@@ -98,10 +111,11 @@
         </div>
     </section>
 
+    <!-- Footer -->
     <footer>
         <div class="container footer-content">
             <a href="index.html" class="footer-logo-link">
-                <img src="Sapphire_logo.png" alt="Sapphire Airport Transfers Logo" class="footer-logo">
+                <img src="./Sapphire_logo.png" alt="Sapphire Airport Transfers Logo" class="footer-logo">
             </a>
             <p>&copy; 2026 Sapphire Airport Transfers. All rights reserved.</p>
             <p>Trusted Executive & Private Airport Chauffeur Services UK.</p>
